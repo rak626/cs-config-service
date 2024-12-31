@@ -1,12 +1,11 @@
 package com.crowdseats.config;
 
-import com.crowdseats.framework.common_util.ProfileSetup;
+import com.crowdseats.framework.common.util.ProfileSetup;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.stereotype.Component;
 
 @SpringBootApplication
 @EnableDiscoveryClient
